@@ -1,0 +1,30 @@
+ul {
+    width: 500px;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: coral;
+    font-size: larger;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.horizontal {
+    display: inline-block;
+}
+
+#btnChange {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    #btnChange {
+        display: initial;
+    }
+
+    ul {
+        display: none;
+    }
+}
